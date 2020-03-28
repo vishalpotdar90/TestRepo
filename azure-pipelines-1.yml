@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'UnitTestProjectDemo.sln'
+  solution: '**/UnitTestProjectDemo.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
