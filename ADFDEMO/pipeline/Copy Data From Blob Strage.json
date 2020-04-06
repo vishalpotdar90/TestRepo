@@ -91,7 +91,12 @@
 									"type": "DelimitedTextSource",
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
-										"recursive": true
+										"recursive": true,
+										"wildcardFileName": {
+											"value": "@{activity('Copy Data from Blob Storage').output}",
+											"type": "Expression"
+										},
+										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
 										"type": "DelimitedTextReadSettings"
