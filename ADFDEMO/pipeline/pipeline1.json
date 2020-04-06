@@ -53,7 +53,8 @@
 				]
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEachContainer",
+				"description": "ForEachContainer",
 				"type": "ForEach",
 				"dependsOn": [
 					{
