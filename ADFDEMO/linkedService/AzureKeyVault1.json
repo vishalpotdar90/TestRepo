@@ -1,11 +1,11 @@
 {
 	"name": "AzureKeyVault1",
 	"properties": {
+		"description": "Added the key vault",
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
 			"baseUrl": "https://AzureKeyVaultDemoADF.vault.azure.net/"
-		},
-		"description": "Added the key vault"
+		}
 	}
 }
