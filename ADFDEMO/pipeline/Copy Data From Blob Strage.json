@@ -68,6 +68,11 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@activity('Copy Data from Blob Storage').output",
+						"type": "Expression"
+					},
+					"batchCount": 1,
 					"activities": [
 						{
 							"name": "Copy to Other Container",
