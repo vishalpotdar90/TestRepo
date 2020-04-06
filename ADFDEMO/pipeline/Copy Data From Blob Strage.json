@@ -92,10 +92,6 @@
 									"storeSettings": {
 										"type": "AzureBlobStorageReadSettings",
 										"recursive": true,
-										"wildcardFolderPath": {
-											"value": "@{activity('Copy Data from Blob Storage').output}",
-											"type": "Expression"
-										},
 										"wildcardFileName": "*.csv",
 										"enablePartitionDiscovery": false
 									},
