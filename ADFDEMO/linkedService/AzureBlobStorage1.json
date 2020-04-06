@@ -1,6 +1,7 @@
 {
 	"name": "AzureBlobStorage1",
 	"properties": {
+		"description": "Added the  Key Vault",
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
@@ -10,7 +11,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "blob-storage-key"
+				"secretName": "blob-stage-key"
 			}
 		}
 	},
