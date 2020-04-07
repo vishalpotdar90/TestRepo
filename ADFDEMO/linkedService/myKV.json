@@ -1,0 +1,11 @@
+{
+	"name": "myKV",
+	"properties": {
+		"description": "myKV",
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://AzureKeyVaultDemoADF.vault.azure.net/"
+		}
+	}
+}
