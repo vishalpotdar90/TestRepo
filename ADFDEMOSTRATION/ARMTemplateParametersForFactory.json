@@ -10,6 +10,12 @@
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://AzureKeyVaultDemoADF.vault.azure.net/"
+		},
+		"myKV_properties_typeProperties_baseUrl": {
+			"value": "https://AzureKeyVaultDemoADF.vault.azure.net/"
+		},
+		"AzureBlobStorage2_properties_typeProperties_connectionString_secretName": {
+			"value": "Storage"
 		}
 	}
 }
